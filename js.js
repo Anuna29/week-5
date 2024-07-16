@@ -36,3 +36,5 @@
 
       const age = calculateAverage(23, 44, 56);
       console.log(age);
+
+      
