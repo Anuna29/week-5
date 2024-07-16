@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <script>
+      // Variables
+      // 1/
+      function city(a) {
+        console.log(a);
+      }
+
+      city("Ulaanbaatar");
+      city("Chicago");
+
+      // 2/
+      const productName = "Airpods Pro 2";
+      let price = 250;
+      let discount = 37.6;
+      const currentPrice = price - price * (discount / 100);
+
+      console.log(
+        "walmart delguurt " +
+          productName +
+          " buteegdehuun " +
+          price +
+          "$ baisnaas " +
+          discount +
+          "% hymdarch " +
+          currentPrice +
+          "$ bolloo"
+      );
+      // 3/
+      const number1 = 33;
+      const number2 = 44;
+      const sum = number1 + number2;
+      console.log(number1 + " ба " + number2 + " тоонуудын нийлбэр нь " + sum);
+
+      // Function
+      // 4/
+      function calculateProblems(count) {
+        problemsPerHour = 2;
+        totalHours = problemsPerHour * count;
+        console.log(
+          "I study for " +
+            totalHours +
+            " hours to solve " +
+            count +
+            " problems."
+        );
+      }
+      calculateProblems(4);
+
+      // 5/
+      function printFavoriteFood(name, food) {
+        console.log(name + " loves to eat " + food);
+      }
+      printFavoriteFood("Anuna", "Chipotle");
+
+      // 6/
+      function printWeather(cityName, weather) {
+        console.log(cityName + " хотод " + weather + "°C байна.");
+      }
+      printWeather("Seoul", 22);
+
+      // 7/
+      function printBookDetails(title, author, yearPublished) {
+        console.log(author + " wrote " + title + " in " + yearPublished);
+      }
+      printBookDetails("Siddhartha", "Herman Hesse", 1922);
+
+      // 8/
+      function calculateArea(width, height) {
+        const area = width * height;
+        return area;
+      }
+      const area = calculateArea(10, 20);
+      console.log("Area: " + area);
+
+      // 9/
+      function calculateVolume(width, height, depth) {
+        const volume = width * height * depth;
+        return volume;
+      }
+      const volume = calculateVolume(10, 20, 30);
+      console.log("Volume " + volume);
+
+      // 10/
+      function printTicketInfo(eventName, ticketPrice, discount) {
+        return (
+          "The ticket price for " +
+          eventName +
+          " is " +
+          ticketPrice +
+          "$, but if you buy now you will get " +
+          discount +
+          "% discount."
+        );
+      }
+      const ticket = printTicketInfo("IU's Concert", 12, 20);
+      console.log(ticket);
+    </script>
+  </body>
+</html>
