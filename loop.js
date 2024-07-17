@@ -28,14 +28,16 @@ console.log(sum)
 
 let checkpoint = 0
 while (checkpoint <= 100) {
-  console.log("Checkpoint! "+ checkpoint)
-  checkpoint=checkpoint+10
+  
+ 
   if (checkpoint === 50) {
     console.log("Half way there")
-  }
-  if (checkpoint === 100) {
+  } else if (checkpoint === 100) {
     console.log("You made it")
+  } else {
+    console.log("Checkpoint! "+ checkpoint)
   }
+  checkpoint=checkpoint+10
 }
 console.log("All, done!")
 
