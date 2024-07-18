@@ -39,15 +39,7 @@ while (checkpoint <= 100) {
 }
 console.log("All, done!")
 
-let F = 0
-while (F <= 100) {
-  if (F === 50) {
-    document.getElementById("demo12").innerHTML = ("Half way there")
-  } else if (F === 100) {
-    document.getElementById("demo12").innerHTML = ("You made it")
-  } else {
-    document.getElementById("demo12").innerHTML = ("Checkpoint!" + F)
-  }
-  F += 10
-}
-document.getElementById("demo12").innerHTML = ("All, done!")
+
+
+
+

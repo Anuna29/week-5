@@ -90,3 +90,25 @@ checkLetter("yahoo")
 
 // 3
 
+function printString(word){
+  let result = "";
+  for(let i = 0; i < word.length; i++){
+    result = result + word[i].toUpperCase() + " ";
+  }
+  console.log(result);
+}
+printString("anuna")
+
+//  4
+
+function countLetters(word1,word2){
+  if (word1.length > word2.length){
+    console.log(word1 + " is longer than "+ word2)
+  }else if(word1.length < word2.length){
+    console.log(word2 + " is longer than "+ word1)
+  }else {
+    console.log("Both word have the same number of letters")
+  }
+}
+countLetters("anuna","enkhjin")
+
